@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-103S4VSR48"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-103S4VSR48');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" type="image/png" href="./Media/POWD_logos.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/df64ffd27a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/resp.css">
+    <title>Port Orchard Web Design & SEO</title>
+</head>
+<body>
+
+
+    <div class="screenLoader" id="screenLoader">
+        <img src="./Media/POWD_logos.png" alt="">
+    </div>
+
+
+   
+    <div class="fonNav" id="fonNav">
+        <div class="fonNavPlacer">
+            <div class="fonLinks" onclick="toHome()"><p>Home</p></div>
+            <!-- <div class="fonLinks" onclick="toServices()"><p>Our Services</p></div>
+            <div class="fonLinks" onclick="toPorfolio()"><p>Portfolio</p></div>
+            <div class="fonLinks" onclick="toTestimonials()"><p>Testimonials</p></div> -->
+            <div class="fonLinks" onclick="toContact()"><p>Contact Us</p></div>
+            <div class="fonNavCancel" onclick="closeFonNav()"><i class="fa-solid fa-x"></i></div>
+        </div>
+    </div>
+
+    <div id="HomeContact">
+     
+        <div class="homeBackVideo">
+
+        </div>
+        <div class="ContactHomeCont">
+
+            <nav>
+                <div class="navPlacer seoNavplacer">
+
+                <div onclick="toHome()" class="logo">
+                    <img src="./Media/POWD_logos.png" alt="">
+                </div>
+
+                <div class="navlinks SEOnavlinks">
+                    <div onclick="showFonNav()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+
+                <div class="fonNavIcon seoNavIcon" onclick="showFonNav()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+            </nav>
+            <div class="ContactHero">
+                <div class="contactHero">
+                    <h1>GET A FREE QUOTE.</h1>
+                    <p>Reach out today for a free quote, and we’ll work with you to create the perfect solution for your business. No pressure, just honest advice and a plan that fits your needs!</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="ContactDiv">
+        <div class="contactWrap">
+
+            <div class="contacGenInputWrap">
+                <div class="input2Wrap">
+                    <div class="inputWrap">
+                        <p>Name<span>*</span></p>
+                        <div class="inputTagWrap">
+                            <input type="text" id="Name">
+                        </div>
+                    </div>
+                    <div class="inputWrap">
+                        <p>Email<span>*</span></p>
+                        <div class="inputTagWrap">
+
+                        <input type="email" id="Email">
+                    </div>
+                    </div>
+
+                </div>
+                <div class="input2Wrap">
+                    <div class="inputWrap">
+                        <p>Phone<span>*</span></p>
+                        <div class="inputTagWrap">
+
+                        <input type="number" id="Phone">
+                    </div>
+                    </div>
+                    <div class="inputWrap">
+                        <p>Budget</p>
+                        <div class="inputTagWrap">
+
+                        <input type="number" id="Budget">
+                    </div>
+                    </div>
+
+                </div>
+                <div class="inputText">
+                <p>Briefly describe your project<span>*</span></p>
+                <div class="textAreaWrap">
+                    
+                <textarea name="" id="Description"></textarea>
+            </div>
+
+                </div>
+                <div class="submitBTN">
+                    <button onclick="submit()" >SUBMIT</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+   
+
+    
+
+
+
+
+
+
+   
+
+    <footer>
+
+        <div class="footerPlacer">
+            <div class="footerLeft">
+                 <div class="footLoc">
+                    <p>4975 Hidden Terrace Lane #404</p>
+                    <p>Port Orchard, WA, 98666</p>
+                 </div>
+             
+            </div>
+            <div class="footerRight">
+    
+                <div class="footComms">
+                    <p><span>Telephone : </span>(253) 230-0789</p>
+                    <!-- <p><span>Email : </span>andrew@portorchardwebdesinger.com</p> -->
+                </div>
+             
+            </div>
+        </div>
+    
+        <div class="finalFooter">
+            <div class="finalFooterLeft">
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+            <div class="finalFooterRight">
+                <p>&copy 2024, Allrights reserved</p>
+    
+            </div>
+        </div>
+    
+    </footer>
+    
+
+
+
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+  </script> 
+  
+    <script src="./JS/index.js"></script>
+    <script src="./JS/config.js"></script>
+</body>
+</html>
