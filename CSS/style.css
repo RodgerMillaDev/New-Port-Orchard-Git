@@ -769,7 +769,8 @@ margin-top: 10px;
 .projectImg .imgWrap img{
 width: 100%;
 border-radius: 5px;
-filter: drop-shadow(20px 20px 3px rgba(146, 143, 143, 0.582));
+filter: drop-shadow(20px 20px 3px rgba(146, 143, 143, 0.282));
+
 }
 .projectScroll{
     width: 100vw;

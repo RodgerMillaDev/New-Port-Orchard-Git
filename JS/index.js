@@ -1,17 +1,34 @@
 function btnLength1(){
+  if(window.innerWidth<=768){
+document.getElementById("priBtnsee").style.width="150px"
+    document.getElementById("priBtnQoute").style.width="100px"
+  }else if(window.innerWidth>768){
     document.getElementById("priBtnsee").style.width="220px"
+    document.getElementById("priBtnQoute").style.width="120px"
+  }
 
- document.getElementById("priBtnQoute").style.width="120px"
+   
 }
 function btnLength2(){
+  if(window.innerWidth<=768){
+    document.getElementById("priBtnQoute").style.width="150px"
+    document.getElementById("priBtnsee").style.width="100px"
+  }else{
     document.getElementById("priBtnQoute").style.width="220px"
-
     document.getElementById("priBtnsee").style.width="120px"
+  }
+   
 
 }
 function btnLength3(){
+  if(window.innerWidth<=768){
+    document.getElementById("priBtnQoute").style.width="40%"
+    document.getElementById("priBtnsee").style.width="40%"   
+  }else{
     document.getElementById("priBtnQoute").style.width="165px"
     document.getElementById("priBtnsee").style.width="165px"   
+  }
+   
 }
 function btnLength12(){
     document.getElementById("seoBtnherodarkpriBtn").style.width="220px"

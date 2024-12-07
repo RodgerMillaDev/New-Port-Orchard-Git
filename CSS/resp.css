@@ -89,18 +89,18 @@
     .homeHero p{
         font-family: oswald;
         color: var(--text-color);
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 200;
         text-align: center;
         margin: 20px 0;
     }
     .heroBtns{
-        width: 80%;
+        width: 90%;
         display: flex;
         justify-content: space-around;
     }
     .heroBtns button{
-        width: 45%;
+        width: 40%;
         height: 45px;
         transition: .3s ease-in-out;
         font-family: oswald;
@@ -124,8 +124,7 @@
 
     .semiHero{
         width: 100vw;
-        height: auto;
-        
+        height: auto;        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -140,7 +139,7 @@
     }
     .semiHeroPlacer p{
         font-family: oswald;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 200;
         line-height: 30px;
     }
@@ -188,7 +187,7 @@
         
     }
     .servicesPlacer{
-        height: 20vh;
+        height: 25vh;
         width: 90%;
     
     }
@@ -208,12 +207,14 @@
         font-weight:400;
     }
     .secIntro p {
-        width: 90%;
+        width: 95%;
+        margin-top: 25px;
         text-align: center;
         font-family: oswald;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 200;
-        line-height: 25px;
+        line-height: 30px;
+
     }
     .summaryDiv{
         width: 100vw;
@@ -236,14 +237,14 @@
     }
     .sumDiv h3{
         font-weight: 400;
-        margin: 5px 0;
-        font-size: 20px;
+        margin: 10px 0;
+        font-size: 25px;
     }
     .sumDiv p{
         width: 80%;
         text-align: center;
         font-family: oswald;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 200;
         line-height: 30px;
     }
@@ -278,9 +279,9 @@
     
     }
     .introProject{
-        width: 90%;
-        margin:  40px auto;
-        height: 40vh;
+        width: 100%;
+        margin:  0px auto;
+        height: 50vh;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -302,6 +303,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+     
         height: 30%;
         
     }
@@ -318,7 +320,7 @@
         
     }
     .introProject .rightPintro button:hover{
-        width: 220px;
+        width: 200px;
     
         
     }
@@ -328,11 +330,12 @@
         font-family: oswald;
         color: var(--text-color);
         font-weight:400;
+        margin: 20px 0;
     }
     .leftPintro p {
         width: 90%;
         font-family: oswald;
-        font-size: 18px;
+        font-size: 22px;
         text-align: center;
         font-weight: 200;
         line-height: 30px;
@@ -341,7 +344,7 @@
     #Projects{
         width: 100vw;
         height:auto;
-        height: 53vh;
+        height: 55vh;
     }
     .projectsWrap{
         width: 90%;
@@ -365,13 +368,14 @@
         justify-content: center;
     }
     .projectOverview p{
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 200;
         text-align: center;
         line-height: 30px;
     }
     .projectOverview h3{
         font-size: 30px;
+        margin: 10px 0;
         font-weight:400;
     }
     .viewWeb{
@@ -426,12 +430,12 @@
         justify-content: center;
         align-items: center;
         width: 90%;
-        height: 90%;
+        height: 100%;
     }
     .projectImg .imgWrap img{
     width: 100%;
     border-radius: 5px;
-    filter: drop-shadow(10px 10px 3px rgba(126, 126, 126, 0.582));
+    filter: drop-shadow(10px 10px 3px rgba(126, 126, 126, 0.282));
     }
     .projectScroll{
         width: 100vw;
@@ -523,18 +527,18 @@
         transition: .3s ease-in-out;
     }
     .answer {
-        max-height: 0;
+        max-height: 00px;
         overflow: hidden;
         transition:  .3s ease-in-out;
     }
     .answer p{
-        font-size: 18px;
+        font-size: 21px;
         font-weight: 200;
         margin: 10px 5px;
         line-height: 30px;
     }
     .faq.active .answer{
-        max-height: 130px;
+        max-height: 2000px;
     
     }
     .faq.active i{
@@ -576,7 +580,7 @@
         font-weight:400;
     }
     .tesimonialLeft p {
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 200;
         text-align: center;
         line-height: 30px;
@@ -694,7 +698,7 @@
                 line-height: 30px;
             }
             .footerRight p{
-                font-size: 18px;
+                font-size: 22px;
                 font-weight: 200;
                 margin: 0px 0px !
                 ;
@@ -743,7 +747,7 @@
             }
             .finalFooterLeft p{
             margin-right: 20px;
-            font-size: 18px;
+            font-size: 22px;
             color: var(--priD-color);
             }
             .finalFooterRight{
@@ -755,7 +759,7 @@
             }
             .finalFooterRight p{
             margin-left: 0px;
-            font-size: 18px;
+            font-size: 22px;
             color: var(--priD-color);
             }
 
@@ -791,7 +795,7 @@
             }
             .seoHeroLeft p{
                 font-family: oswald;
-                font-size: 18px;
+                font-size: 22px;
                 margin-top: 20px;
             
                 line-height: 30px;
@@ -853,7 +857,7 @@
             .localLeft p {
                 width: 100%;
                 font-family: oswald;
-                font-size: 18px;
+                font-size: 22px;
                 font-weight: 200;
                 text-align: center;
                 margin-top: 10px;
@@ -896,7 +900,7 @@
             .contactHero p{
                 font-family: oswald;
                 color: rgb(233, 233, 233);
-                font-size: 16px;
+                font-size: 22px;
                 font-weight: 200;
                 width: 100%;
                 margin: 10px 0;
@@ -967,7 +971,7 @@
             .inputWrap p{
                 font-family: oswald;
                 color: var(--text-color);
-                font-size: 18px;
+                font-size: 22px;
                 font-weight: 200;
                 width: 60%;
                 margin: 6px 0;
@@ -979,7 +983,7 @@
                 font-family: oswald;
                 color: var(--text-color);
                 margin-left: 10px;
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: 200;
                 border: none;
                 background: none;
